@@ -24,9 +24,11 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
-
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- AJAX -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- =======================================================
   * Template Name: Lumia - v4.2.0
@@ -54,24 +56,6 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#resume">Resume / CV</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -80,7 +64,7 @@
       <div class="header-social-links d-flex align-items-center">
         <a href="https://github.com/michelle-n" class="github"><i class="bi bi-github"></i></a>
         <a href="https://www.linkedin.com/in/michelle-vy-nguyen/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-        <a href="#contact" class="email scrollto"><i class="bi bi-envelope"></i></a>
+        <a href="#contact" class="nav-link scrollto"><i class="bi bi-envelope"></i></a>
       </div>
 
     </div>
@@ -150,7 +134,7 @@
           <!-- <div class="social-links text-center text-md-right pt-3 pt-md-0 mt-3">
             <a href="https://github.com/michelle-n" class="github"><i class="bx bxl-github"></i></a>
             <a href="https://www.linkedin.com/in/michelle-vy-nguyen/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            <a href="#contact" class="email scrollto"><i class="bi bi-envelope"></i></a>
+            <a href="#contact" class="contact scrollto"><i class="bi bi-envelope"></i></a>
           </div> -->
         </div>
 
@@ -160,7 +144,7 @@
             <div class="social-links text-center text-md-right pt-3 pt-md-0 mt-3">
               <a href="https://github.com/michelle-n" class="github"><i class="bx bxl-github"></i></a>
               <a href="https://www.linkedin.com/in/michelle-vy-nguyen/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              <a href="#contact" class="email scrollto"><i class="bi bi-envelope"></i></a>
+              <a href="#contact" class="contact scrollto"><i class="bi bi-envelope"></i></a>
             </div>
           </div>
         </section><!-- End Socials Section -->
@@ -609,6 +593,21 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
+                <img src="assets/img/portfolio/dpfplusplus/dpfplusplus_screenshot_3.jpg" class="img-fluid" alt="dpfplusplus screenshot">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="link-preview portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
+                <a href="dpfplusplus.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 1</a></h4>
+                <p>App</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
                 <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="link-preview portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
@@ -922,7 +921,7 @@
             <!-- <div class="social-links text-center text-md-right pt-3 pt-md-0 mt-3">
               <a href="https://github.com/michelle-n" class="github"><i class="bx bxl-github"></i></a>
               <a href="https://www.linkedin.com/in/michelle-vy-nguyen/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              <a href="#contact" class="email scrollto"><i class="bi bi-envelope"></i></a>
+              <a href="#contact" class="contact scrollto"><i class="bi bi-envelope"></i></a>
             </div> -->
             <p>Please use the form below to contact me. </p>
             <p>Or, <a href="https://www.linkedin.com/in/michelle-vy-nguyen/">let's connect on <i class="bi bi-linkedin"></i> LinkedIn! </a>  </p>
@@ -976,13 +975,13 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/lumia-bootstrap-business-template/ -->
-          Modified from the Lumia template designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          <!-- Modified from the Lumia template designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
         <a href="https://github.com/michelle-n" class="github"><i class="bx bxl-github"></i></a>
         <a href="https://www.linkedin.com/in/michelle-vy-nguyen/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="#contact" class="email scrollto"><i class="bi bi-envelope"></i></a>
+        <a href="#contact" class="contact scrollto"><i class="bi bi-envelope"></i></a>
       </div>
     </div>
   </footer><!-- End Footer -->

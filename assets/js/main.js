@@ -126,7 +126,7 @@
   }, true)
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with ofset on links with a class name .scrollto
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
@@ -213,14 +213,18 @@
     speed: 400,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 4000,
       disableOnInteraction: false
     },
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
       clickable: true
-    }
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
   });
 
   /**
@@ -253,3 +257,29 @@
   });
 
 })()
+
+/** AJAX **/
+
+/**
+ * Header / Navigation bar
+ */
+$.get("navigation.html", function(data){
+  $("#navigation-placeholder").replaceWith(data);
+});
+
+/**
+ * Footer
+ */
+ $.get("footer.html", function(data){
+  $("#footer-placeholder").replaceWith(data);
+});
+
+/**
+* Scroll with ofset on page load with hash links in the url
+*/
+if (window.location.hash) {
+  var hash = window.location.hash;
+  $('html, body').animate({
+      scrollTop :  $(hash).offset().top - header.offsetHeight
+  }, 500);
+}

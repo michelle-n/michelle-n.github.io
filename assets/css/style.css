@@ -915,12 +915,14 @@ section {
 }
 
 .portfolio .portfolio-item figure {
-  background: #000;
+  background: #f3f6f8;
   overflow: hidden;
   height: 240px;
   position: relative;
   border-radius: 4px 4px 0 0;
   margin: 0;
+  display: grid;
+  align-content: center;
 }
 
 .portfolio .portfolio-item figure:hover img {
