@@ -274,6 +274,11 @@ $.get("navigation.html", function(data){
   $("#footer-placeholder").replaceWith(data);
 });
 
+$(".portfolio-wrap").click(function(){
+    var link = $(this).attr("portfolio-url");
+    document.location.href=link;
+  });
+
 /**
 * Scroll with ofset on page load with hash links in the url
 */

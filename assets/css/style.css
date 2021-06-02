@@ -900,6 +900,7 @@ section {
 }
 
 .portfolio .portfolio-wrap {
+  cursor: pointer;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
 }
@@ -929,6 +930,9 @@ section {
   opacity: 0.4;
   transition: .4s;
 }
+.portfolio a {
+  display: block;
+}
 
 .portfolio .portfolio-item figure .link-preview, .portfolio .portfolio-item figure .link-details {
   position: absolute;
@@ -938,13 +942,17 @@ section {
   opacity: 0;
   line-height: 0;
   text-align: center;
-  width: 36px;
+  width: 200px;
   height: 36px;
-  background: #fff;
-  border-radius: 50%;
+  background: #0F469A;
+  border-radius: 2%;
   transition: all .2s linear;
   overflow: hidden;
-  font-size: 20px;
+  font-size: 14px;
+}
+
+.portfolio .portfolio-item figure .link-details {
+  color: #fff;
 }
 
 .portfolio .portfolio-item figure .link-preview i, .portfolio .portfolio-item figure .link-details i {
@@ -953,7 +961,7 @@ section {
 }
 
 .portfolio .portfolio-item figure .link-preview:hover, .portfolio .portfolio-item figure .link-details:hover {
-  background: #0F469A;
+  background: #427ed8;
 }
 
 .portfolio .portfolio-item figure .link-preview:hover i, .portfolio .portfolio-item figure .link-details:hover i {
@@ -966,7 +974,7 @@ section {
 }
 
 .portfolio .portfolio-item figure .link-details {
-  right: calc(50% - 38px);
+  right: calc(50%);
   top: calc(50% - 18px);
 }
 
@@ -977,7 +985,7 @@ section {
 
 .portfolio .portfolio-item figure:hover .link-details {
   opacity: 1;
-  right: calc(50% - 44px);
+  right: calc(50% - 100px);
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -1010,7 +1018,6 @@ section {
   color: #b8b8b8;
   font-weight: 500;
   font-size: 14px;
-  text-transform: uppercase;
 }
 
 /*--------------------------------------------------------------
@@ -1256,7 +1263,7 @@ section {
 .contact .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0F469A;;
+  background: #0F469A;
   color: #fff;
   line-height: 1;
   padding: 15px 0;
