@@ -646,19 +646,30 @@ section {
 }
 
 .resume .icon-boxes h5 {
-  font-size: 16px;
-  font-weight: 600;
-  /* margin-top: 5px; */
+  font-size: 18px;
+  font-weight: 500;
   margin: 5px 0px;
-  /* margin: 5px 0px 5px 40px; */
+}
+
+.resume .icon-boxes h5 b {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px 0px;
 }
 
 .resume .icon-boxes h6 {
   font-size: 16px;
   font-weight: 500;
-  /* margin: 5px 0px 5px 40px; */
   margin: 5px 0px;
 }
+
+.resume .icon-boxes h6 b {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 5px 0px;
+}
+
+
 .resume .icon-boxes i {
   /* font-size: 48px; */
   font-size: 32px;
@@ -1071,8 +1082,32 @@ section {
   margin-top: 10px;
 }
 
+.portfolio-details .details-btn {
+  text-align: center;
+}
+
+.portfolio-details .btn-goto-details {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 12px 28px;
+  margin: 0px 5px;
+  border-radius: 4px;
+  transition: ease-in-out 0.3s;
+  outline: 2px solid #0F469A;
+  text-transform: uppercase;
+}
+
 .portfolio-details .portfolio-description {
   padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description .video {
+  height: 250px;
+  padding: 5px 0px 10px;
+  text-align: center;
 }
 
 .portfolio-details .portfolio-description h2 {
