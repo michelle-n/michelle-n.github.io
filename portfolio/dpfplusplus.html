@@ -94,10 +94,10 @@
             <div class="portfolio-info">
               <h3>dpfplusplus</h3>
               <ul>
-                <li><strong>Category</strong>: Cryptographic Primitive</li>
-                <li><strong>Project date</strong>: March, 2021 - April, 2021</li>
-                <li><strong>Created using</strong>: C/C++, Doxygen, HTML/CSS</li>
-                <li><strong>GitHub URL</strong>: (Research / Temporarily Private)</li>
+                <li><strong>Category:</strong> Cryptographic Primitive</li>
+                <li><strong>Project date:</strong> March, 2021 - April, 2021</li>
+                <li><strong>Created using:</strong> C/C++, Doxygen, HTML/CSS</li>
+                <li><strong>GitHub URL:</strong> (Research / Temporarily Private)</li>
               </ul>
               <div class="details-btn">
                 <a href="#project-details" class="btn-goto-details scrollto"><i class="bi bi-arrow-down"></i> Jump to Project Details </a> 
@@ -112,12 +112,19 @@
             <div id="project-details" class="portfolio-description">
               <h2>Project Details of dpfplusplus</h2>
               <p>
-                Distributed point functions
-                 shared secrets. 
-
-                
-                As a part of this project, I wrote documentation and tried different signatures, opt. 
+                Distributed point functions (DPFs) are a cryptographic primitive, used for secret sharing, featured in many recent anonymous messaging systems: such as <a href="https://crysp.uwaterloo.ca/courses/pet/F15/cache/riposte-oakland15.pdf">Riposte (Corrigan-Gibbs et al., 2015)</a> or Sabre (Henry et al., 2021). 
               </p>
+              <p>
+                dpfplusplus is a C++ implementation of (2,2)-distributed point functions (see <a href="https://www.iacr.org/archive/eurocrypt2014/84410245/84410245.pdf">Gilboa and Ishai, 2014</a>) by Dr. Ryan Henry and Dr. Adithya Vadapalli. 
+              </p>
+              <p>
+                My work on this project originated from a senior-level seminar course taken at the University of Calgary with Dr. Ryan Henry. 
+                In this project, my colleague (Nickole Jimenez) and I <b>wrote documentation and performed maintenance on the codebase</b>. As well, I attempted to <b>optimize functions within the codebase</b> by modifying the access patterns and data structures used, to allow for better caching; however, this code would ultimately not make it to production as the algorithm/underlying mathematics attempted still need to be resolved. Below are some of my key contributions to the project.  
+              </p>
+              <ul>
+                <li>Increasing user-friendliness for new users, by creating the first tutorials on getting started with dpfplusplus. Three tutorials and a template were created, which included step-by-step walkthroughs and minimal code examples. </li>
+                <li>Simplifying user-experience, by establishing a documentation website for dpfplusplus and implementing a design for quick access to code/function-specific documentation and tutorials. </li>
+              </ul>
             </div>
           </div>
         </div>

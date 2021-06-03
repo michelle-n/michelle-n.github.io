@@ -1468,6 +1468,28 @@ section {
 }
 
 /*--------------------------------------------------------------
+# 404 Page Not Found
+--------------------------------------------------------------*/
+.page-not-found {
+  justify-content: center;
+  text-align: center;
+}
+
+.page-not-found .btn-goto-home {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 12px 28px;
+  margin: 0px 5px;
+  border-radius: 4px;
+  transition: ease-in-out 0.3s;
+  outline: 2px solid #0F469A;
+  text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
