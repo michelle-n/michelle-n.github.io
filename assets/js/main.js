@@ -263,14 +263,14 @@
 /**
  * Header / Navigation bar
  */
-$.get("./navigation.html", function(data){
+$.get("/navigation.html", function(data){
   $("#navigation-placeholder").replaceWith(data);
 });
 
 /**
  * Footer
  */
- $.get("./footer.html", function(data){
+ $.get("/footer.html", function(data){
   $("#footer-placeholder").replaceWith(data);
 });
 
