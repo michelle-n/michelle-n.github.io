@@ -744,39 +744,6 @@ section {
   padding: 5px 0;
 }
 
-/* .skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
-}
-
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #384046;
-}
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #e8eaec;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: .9s;
-  background-color: #427ed8;
-} */
-
 .skills h4 {
   font-size: 22px;
   font-weight: 500;
@@ -826,51 +793,27 @@ section {
   margin: 20px;
 }
 
-
 /*--------------------------------------------------------------
-# Counts
+# Awards, Clubs and Interests
 --------------------------------------------------------------*/
-.counts {
-  padding: 30px 0 40px 0;
-}
 
-.counts .count-box {
-  padding: 30px 30px 25px 30px;
-  width: 100%;
-  position: relative;
+.awards, .clubs-interests {
+  padding: 5px 0;
   text-align: center;
 }
 
-.counts .count-box i {
-  position: absolute;
-  top: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 20px;
-  background: #0F469A;
-  padding: 12px;
-  color: #fff;
-  border-radius: 50px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
+.awards .entry .line .right-col, .clubs-interests .entry .line .right-col {
+  flex: 7.7;
 }
 
-.counts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
-  color: #124364;
+.awards .entry .line .left-col, .clubs-interests .entry .line .left-col {
+  flex: 2;
 }
 
-.counts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
+.awards .entry .line i2, .clubs-interests .entry .line i2 {
+  flex: 0.3;
 }
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1114,6 +1057,15 @@ section {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description .fancy-break {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description i{
+  font-size: 10px;
 }
 
 .portfolio-details .portfolio-description p {
