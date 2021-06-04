@@ -1444,6 +1444,10 @@ section {
   text-transform: uppercase;
 }
 
+.page-not-found .btn-goto-home:hover {
+  outline: 2px solid #427ed8;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
