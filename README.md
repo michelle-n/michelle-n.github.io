@@ -1,13 +1,13 @@
-# michelle-n.github.io
+# michellevynguyen.com | michelle-n.github.io
 ---
 
 My portfolio website. 
 
-Website: **insert link in the future**
+Website: <a href="https://michellevynguyen.com">michellevynguyen.com</a>
 
-Resume: **insert link in the future**
+Resume: <a href="https://michellevynguyen.com/assets/files/Michelle_Vy_Nguyen_Resume.pdf">michellevynguyen.com/assets/files/Michelle_Vy_Nguyen_Resume.pdf</a>
 
-LinkedIn: **insert link in the future**
+LinkedIn: <a href="https://linkedin.com/in/michellevynguyen/">linkedin.com/in/michellevynguyen/</a>
 
 
 ---
