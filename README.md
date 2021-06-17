@@ -5,7 +5,7 @@ My portfolio website.
 
 Website: <a href="https://michellevynguyen.com">michellevynguyen.com</a>
 
-Resume: <a href="https://michellevynguyen.com/assets/files/Michelle_Vy_Nguyen_Resume.pdf">michellevynguyen.com/assets/files/Michelle_Vy_Nguyen_Resume.pdf</a>
+Resume: <a href="https://michellevynguyen.com/assets/files/Michelle_Nguyen_Resume.pdf">michellevynguyen.com/assets/files/Michelle_Nguyen_Resume.pdf</a>
 
 LinkedIn: <a href="https://linkedin.com/in/michellevynguyen/">linkedin.com/in/michellevynguyen/</a>
 
